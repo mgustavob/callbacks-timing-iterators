@@ -55,3 +55,31 @@ function subtractNumbers(num1, num2) {
 }
 
 console.log(calculator(5,77, addNumbers, subtractNumbers));
+
+function superHero (name1, callback1, callback2) {
+    let resl = "Hello my name is " +name1+ " my superpower is " +callback1()+ " and " +callback2();
+    return resl;
+}
+function powerOne () {
+    let pOne= "that you killed my Father!";
+    return pOne;
+}
+
+function powerTwo () {
+    let pTwo = "Prepare to Die!"
+
+}
+
+console.log(superHero("Indigo Montoya", powerOne, powerTwo))
+
+
+function sonic (superPowerOne, superPowerTwo) {
+
+    let allSuperPowers = superPowerOne() + ' and ' + superPowerTwo();
+
+    return allSuperPowers;
+}
+
+function superSpeed() {
+
+}
