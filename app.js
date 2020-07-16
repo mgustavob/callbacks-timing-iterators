@@ -73,13 +73,31 @@ function powerTwo () {
 console.log(superHero("Indigo Montoya", powerOne, powerTwo))
 
 
-function sonic (superPowerOne, superPowerTwo) {
+// function sonic (superPowerOne, superPowerTwo) {
 
-    let allSuperPowers = superPowerOne() + ' and ' + superPowerTwo();
+//     let allSuperPowers = superPowerOne() + ' and ' + superPowerTwo();
 
-    return allSuperPowers;
+//     return allSuperPowers;
+// }
+
+// function superSpeed() {
+//     let spee
+
+// }
+
+
+function blastOff() {
+    let num = 0;
+    for (let i = 10; i >= num; i--) {
+        console.log(i);
+    }
+    console.log("BLAST OFF!!!");
 }
 
-function superSpeed() {
+setTimeout(blastOff, 5000);
 
+function myNam (nam1) {
+    console.log("My name is " , nam1);
 }
+
+setTimeout(myNam, 5000, 'Martin');
