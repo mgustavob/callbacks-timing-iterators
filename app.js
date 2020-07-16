@@ -97,7 +97,38 @@ function blastOff() {
 setTimeout(blastOff, 5000);
 
 function myNam (nam1) {
-    console.log("My name is " , nam1);
+    console.log("My name is " +nam1);
 }
 
 setTimeout(myNam, 5000, 'Martin');
+
+
+//iterator
+//forEach
+
+const collectables =['Bomag', 'CMI Corp', 'Wirtgen', 'Caterpillar']
+
+collectables.forEach(function(num1) {
+    console.log(num1);
+})
+
+
+//map
+
+const someNumbs = [24, 65,347, 34];
+
+const addFive = someNumbs.map(element => {
+    return element + 5;
+});
+console.log(addFive);
+
+
+//filter
+
+const great50 = someNumbs.filter(element => {
+    if (element > 50) {
+        return element;
+    }
+})
+
+console.log(great50);
